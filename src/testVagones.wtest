@@ -1,0 +1,10 @@
+import vagones.*
+import formaciones.*
+
+describe "Test de Formaciones" {
+	
+	const vagon1 = new VagonPasajeros(largo = 10, ancho = 4, conBanio = true)
+	const vagon2 = new VagonPasajeros(largo = 7, ancho = 2, estaOrdenado = false, conBanio = true)
+ 	const vagon3 = new VagonCarga(cargaMaximaIdeal = 6800, maderasSueltas = 5)
+ 	const vagon4 = new VagonDormitorio(compartimientos = 8, camasPorCompartimiento = 3)
+}
